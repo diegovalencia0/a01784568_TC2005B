@@ -85,7 +85,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+The course objective is to create a TCG videogame, usign unity as engine, node for website and Mysql to databases
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
