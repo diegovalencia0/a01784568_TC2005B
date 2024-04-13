@@ -1,1 +1,0 @@
-// Escribe una función que calcule el máximo común divisor de dos números.
