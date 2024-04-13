@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //EJERCICIO 1
 //Escribe una función que encuentre el primer carácter de un cadena de texto que no se repite. Prueba tu función con: 'abacddbec'
 function find(str) {
@@ -25,3 +26,6 @@ function find(str) {
   console.log(find("holaaa"));
   console.log(find("Diego")); 
   
+=======
+/*EJERCICIO 1*/
+>>>>>>> e454708626af3ec341ff512a86661fe41c054a9f
