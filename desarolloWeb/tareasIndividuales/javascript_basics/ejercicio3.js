@@ -1,3 +1,4 @@
+//EJERCICIO 3
 //Escribe dos funciones: la primera que invierta un arreglo de números y regrese un nuevo arreglo con el resultado; la segunda que modifique el mismo arreglo que se pasa como argumento. No se permite usar la función integrada 'reverse'.
 
 
@@ -7,10 +8,11 @@ function invert(arr){
 
     for(let i = 0; i<length;i++){
         reversedArray = [];
-        reversedArray=arr[length - i]
-        console.log("Este es un nuevo arreglo revertido" + reversedArray);
-
+        reversedArray.push(arr[length - i]);
+        console.log(reversedArray);
     }
+    
+    
 
 }
 

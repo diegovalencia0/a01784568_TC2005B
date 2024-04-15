@@ -15,6 +15,6 @@ function bubbleSort(str){
     console.log(str);
 }
 
-let cadena = [1, 2, 4, 3, 5, 7, 2, 1];
+let cadena = [1, 2, 4, 3, 5, 7, 6, 8];
 bubbleSort(cadena);
 

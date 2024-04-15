@@ -1,3 +1,4 @@
+//EJERCICIO 4
 //Escribe una función que reciba una cadena de texto y regrese una nueva con la primer letra de cada palabra en mayúscula.
 
 function mayus(str){
