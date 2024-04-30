@@ -1,5 +1,5 @@
-//EJERCICIO 12
-//Escribe una función que tome una lista de números y devuelva la mediana y la moda.
+//EJERCICIO 12 
+//Escribe una función que tome una listade números y devuelva la mediana y la moda.
 
 function operations(numberList) {
     const length = numberList.length;
