@@ -45,8 +45,6 @@ app.post('/addCard', (req, res) => {
     }
 });
 
-
-// Route to delete a card by ID
 app.delete('/deleteCard/:id', (req, res) => {
     const cardId = req.params.id;
     const index = cards.findIndex(card => card.id === cardId);
@@ -58,9 +56,6 @@ app.delete('/deleteCard/:id', (req, res) => {
     }
 });
 
-
-
-// Route to update a card by ID
 app.put('/updateCard/:id', (req, res) => {
     const cardId = req.params.id;
     const updateFields = req.body;
@@ -68,7 +63,7 @@ app.put('/updateCard/:id', (req, res) => {
     if (index === -1) {
         res.status(404).send("Card not found");
     } else {
-        // Update only the specified fields
+        
         Object.assign(cards[index], updateFields);
         res.status(200).send("Card updated");
     }
