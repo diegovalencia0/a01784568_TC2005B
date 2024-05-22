@@ -12,11 +12,11 @@ const __dirname = path.dirname(__filename);
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'html_cheat_sheet.html'));
-});
+//app.get('/', (req, res) => {
+//    res.sendFile(path.join(__dirname, 'public', 'html_cheat_sheet.html'));
+//});
 
-app.get('/css', (req, res) => {
+app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'css_cheat_sheet.html'));
 });
 
