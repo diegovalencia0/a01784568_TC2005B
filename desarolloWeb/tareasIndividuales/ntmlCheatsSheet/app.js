@@ -16,6 +16,10 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'html_cheat_sheet.html'));
 });
 
+app.get('/css', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'css_cheat_sheet.html'));
+});
+
 app.listen(port, () => {
     console.log(`Server running on http://localhost:${port}/`);
 });
